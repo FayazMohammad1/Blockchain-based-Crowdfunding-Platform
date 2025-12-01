@@ -7,7 +7,7 @@ const Accordian = ({ title, answer }) => {
 
   return (
     <div className="py-4">
-      {/* Button to toggle accordion */}
+      {/* Button to toggle accordions */}
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full"
